@@ -17,7 +17,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://graph.org/file/287f7e3bba7507e67ced8-d7b58dc4fb085109ab.jpg https://graph.org/file/0835bdbeffba334d786b0-458e7be4a7bead95f7.jpg https://graph.org/file/bcd1a60807d1c7ed7f5b3-8fe89295f8c2923a43.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/0835bdbeffba334d786b0-458e7be4a7bead95f7.jpg https://graph.org/file/bcd1a60807d1c7ed7f5b3-8fe89295f8c2923a43.jpg')).split()
 
 
 # Admins & Users
@@ -90,8 +90,8 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movie_request04')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+IfK18uGHpYU0NGI9')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+HVofks2wbCExZTA9') # Support Chat Link Without https:// or @
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/@aviram_mahalik')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '@all_support54') # Support Chat Link Without https:// or @
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/aviram_mahalik')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
